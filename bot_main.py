@@ -37,7 +37,7 @@ async def send_m(text_malling):
 
 
 if __name__ == '__main__':
-    subprocess.Popen(["/home/str/26pla/.venv/bin/python", "/home/str/25gor/telegram_bot/monitor.py"])
+    subprocess.Popen(["/home/str/26pla/.venv/bin/python", "/home/str/26pla/telegram_bot/monitor.py"])
 
     scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
     scheduler.start()
